@@ -1,0 +1,10 @@
+2017-01-03 21:45:33 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2017-01-03 21:45:39 [qtp60258782-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2017-01-03 21:45:39 [qtp60258782-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2017-01-03 21:45:39 [qtp60258782-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2017-01-03 21:45:39 [qtp60258782-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2017-01-03 21:45:39 [qtp60258782-28] - [INFO] [com.demo.service.CertificationService:50] {}
+ 2017-01-03 21:45:39 [qtp60258782-32] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2017-01-03 21:45:39 [qtp60258782-28] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2017-01-03 21:45:39 [qtp60258782-28] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 

@@ -1,0 +1,49 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="${prefix_path!""}static/libs/ext/resources/css/ext-all.css">
+    <link rel="stylesheet" type="text/css" href="${prefix_path!""}static/libs/ext/ux/css/ux-all.css">
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/adapter/ext/ext-base.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/ext-all.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/src/locale/ext-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/ux/fileuploadfield/FileUploadField.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/ux/DateTimeField.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/ux/Spinner.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/ext/ux/SpinnerField.js"></script>
+    <script type="text/javascript" src="${prefix_path!""}static/libs/seajs/dist/sea.js"></script>
+    
+    <title>实名认证配置列表</title> 
+</head>
+
+<body>
+
+<style>
+.x-grid3-cell {
+  -moz-user-select: text;
+  -khtml-user-select: text;
+  -webkit-user-select: text;
+}
+
+.x-grid3-row td {
+  -moz-user-select: text;
+}
+
+
+</style>
+
+<script type="text/javascript" charset="utf-8">
+//解决extjs 不能选中的问题
+Ext.override(Ext.grid.GridView, {
+    templates: {
+        cell: new Ext.Template(
+                    '<td class="x-grid3-col x-grid3-cell x-grid3-td-{id} {css}" style="{style}" tabIndex="0" {cellAttr}>',
+                    '<div class="x-grid3-cell-inner x-grid3-col-{id}" {attr}>{value}</div>',
+                    "</td>"
+            )
+    }
+});
+var prefix_path = "${prefix_path!''}";
+    seajs.use("${prefix_path!""}./static/js/admin_certification.js?t=${cache_time!''}");
+</script>
+</body>
+</html>

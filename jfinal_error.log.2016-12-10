@@ -1,0 +1,81 @@
+2016-12-10 23:15:20 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-10 23:15:23 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:15:23 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:15:23 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:15:23 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:15:23 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:15:34 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:15:34 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-10 23:15:35 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:15:35 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:15:35 [qtp1304551337-30] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:15:35 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:15:35 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:16:52 [qtp1304551337-34] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:16:52 [qtp1304551337-34] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-10 23:17:56 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-10 23:17:59 [qtp1304551337-29] - [INFO] [com.demo.controller.CertificationController:56] ******************null
+ 2016-12-10 23:17:59 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:17:59 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:17:59 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:17:59 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:17:59 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:18:04 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:18:04 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-10 23:18:05 [qtp1304551337-29] - [INFO] [com.demo.controller.CertificationController:56] ******************null
+ 2016-12-10 23:18:05 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:18:05 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:18:05 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:18:05 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:18:05 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:18:25 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-10 23:18:30 [qtp833632254-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `status` = ? 
+ 2016-12-10 23:18:30 [qtp833632254-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[0]
+ 2016-12-10 23:18:30 [qtp833632254-28] - [INFO] [com.demo.service.CertificationService:52] {"status":"0"}
+ 2016-12-10 23:18:30 [qtp833632254-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `status` = ?  LIMIT 0 ,50]
+ 2016-12-10 23:18:30 [qtp833632254-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[0]]
+ 2016-12-10 23:21:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `status` = ? 
+ 2016-12-10 23:21:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[0]
+ 2016-12-10 23:21:24 [qtp833632254-30] - [INFO] [com.demo.service.CertificationService:52] {"status":"0"}
+ 2016-12-10 23:21:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `status` = ?  LIMIT 0 ,50]
+ 2016-12-10 23:21:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:127] params:[[0]]
+ 2016-12-10 23:31:44 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:31:44 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:31:44 [qtp833632254-43] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:31:44 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:31:44 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:31:46 [qtp833632254-43] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:31:46 [qtp833632254-43] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-10 23:31:58 [qtp833632254-45] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:31:58 [qtp833632254-45] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:31:58 [qtp833632254-45] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:31:58 [qtp833632254-45] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:31:58 [qtp833632254-45] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:34:05 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:34:05 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:34:05 [qtp833632254-43] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:34:05 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:34:05 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:34:07 [qtp833632254-46] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:34:07 [qtp833632254-46] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-10 23:34:10 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:34:10 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:34:10 [qtp833632254-43] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:34:10 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:34:10 [qtp833632254-43] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:55:24 [qtp833632254-70] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:55:24 [qtp833632254-70] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:55:24 [qtp833632254-70] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:55:24 [qtp833632254-70] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:55:24 [qtp833632254-70] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:55:28 [qtp833632254-68] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:55:28 [qtp833632254-68] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-10 23:55:34 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-10 23:55:49 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-10 23:55:49 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-10 23:55:49 [qtp833632254-33] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-10 23:55:49 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-10 23:55:49 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-10 23:55:53 [qtp833632254-30] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-10 23:55:53 [qtp833632254-30] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 

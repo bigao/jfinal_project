@@ -1,0 +1,1175 @@
+2016-12-11 13:14:01 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 13:14:21 [qtp1304551337-30] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:14:21 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:14:21 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:14:21 [qtp1304551337-30] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:14:21 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:14:21 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:14:21 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:18:00 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:18:00 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:18:00 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:18:00 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:18:00 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:18:00 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:18:00 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:18:17 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:18:17 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:18:17 [qtp1304551337-32] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:18:17 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:18:17 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:18:17 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:18:17 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:20:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:20:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:20:12 [qtp1304551337-32] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:20:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:20:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:23:34 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 13:23:41 [qtp833632254-30] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:23:41 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:23:41 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:23:41 [qtp833632254-30] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:23:41 [qtp833632254-33] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:23:41 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:23:41 [qtp833632254-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:23:50 [qtp833632254-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ? 
+ 2016-12-11 13:23:50 [qtp833632254-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[20]
+ 2016-12-11 13:25:31 [qtp833632254-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:25:31 [qtp833632254-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:25:31 [qtp833632254-31] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:25:31 [qtp833632254-31] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:25:31 [qtp833632254-31] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:25:31 [qtp833632254-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:25:31 [qtp833632254-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:25:37 [qtp833632254-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ? 
+ 2016-12-11 13:25:37 [qtp833632254-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端]
+ 2016-12-11 13:25:37 [qtp833632254-32] - [INFO] [com.demo.service.CertificationService:52] {"channel_name":"8868客户端"}
+ 2016-12-11 13:25:37 [qtp833632254-32] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `channel_name` = ?  LIMIT 0 ,50]
+ 2016-12-11 13:25:37 [qtp833632254-32] - [INFO] [com.demo.utils.DBJfinal:127] params:[[8868客户端]]
+ 2016-12-11 13:36:37 [qtp833632254-41] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:36:37 [qtp833632254-41] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:36:37 [qtp833632254-41] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:36:37 [qtp833632254-41] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:36:37 [qtp833632254-41] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:36:37 [qtp833632254-44] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:36:37 [qtp833632254-44] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:36:44 [qtp833632254-44] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ? 
+ 2016-12-11 13:36:44 [qtp833632254-44] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[20]
+ 2016-12-11 13:37:02 [qtp833632254-42] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 13:37:02 [qtp833632254-42] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 13:37:02 [qtp833632254-42] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 13:37:02 [qtp833632254-42] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 13:37:02 [qtp833632254-42] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 13:37:02 [qtp833632254-44] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 13:37:02 [qtp833632254-44] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 13:37:07 [qtp833632254-40] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ? 
+ 2016-12-11 13:37:07 [qtp833632254-40] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[20]
+ 2016-12-11 15:10:53 [qtp833632254-141] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 15:10:53 [qtp833632254-141] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 15:10:53 [qtp833632254-141] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 15:10:53 [qtp833632254-141] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 15:10:53 [qtp833632254-141] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 15:10:53 [qtp833632254-142] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 15:10:53 [qtp833632254-142] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 15:11:00 [qtp833632254-144] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ? 
+ 2016-12-11 15:11:00 [qtp833632254-144] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端]
+ 2016-12-11 15:11:00 [qtp833632254-144] - [INFO] [com.demo.service.CertificationService:52] {"channel_name":"8868客户端"}
+ 2016-12-11 15:11:00 [qtp833632254-144] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `channel_name` = ?  LIMIT 0 ,50]
+ 2016-12-11 15:11:00 [qtp833632254-144] - [INFO] [com.demo.utils.DBJfinal:127] params:[[8868客户端]]
+ 2016-12-11 15:13:41 [qtp833632254-145] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `status` = ? 
+ 2016-12-11 15:13:41 [qtp833632254-145] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端, 0]
+ 2016-12-11 15:13:41 [qtp833632254-145] - [INFO] [com.demo.service.CertificationService:52] {"channel_name":"8868客户端","status":"0"}
+ 2016-12-11 15:13:41 [qtp833632254-145] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `channel_name` = ?  AND `status` = ?  LIMIT 0 ,50]
+ 2016-12-11 15:13:41 [qtp833632254-145] - [INFO] [com.demo.utils.DBJfinal:127] params:[[8868客户端, 0]]
+ 2016-12-11 15:13:42 [qtp833632254-145] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `status` = ? 
+ 2016-12-11 15:13:42 [qtp833632254-145] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端, 1]
+ 2016-12-11 15:13:57 [qtp833632254-147] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 15:13:57 [qtp833632254-147] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 15:13:57 [qtp833632254-147] - [INFO] [com.demo.service.CertificationService:52] {}
+ 2016-12-11 15:13:57 [qtp833632254-147] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 15:13:57 [qtp833632254-147] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 15:13:57 [qtp833632254-146] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 15:13:57 [qtp833632254-146] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 15:53:02 [qtp833632254-186] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 15:53:02 [qtp833632254-186] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 15:53:02 [qtp833632254-186] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 15:53:02 [qtp833632254-186] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 15:53:02 [qtp833632254-186] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 15:53:02 [qtp833632254-185] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminProductTypeGroup/getList?_dc=1481442782562
+ com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'RDER BY weight ASC',expect BY, actual BY BY : SELECT * FROM product_type_groupORDER BY weight ASC
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:527)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:546)
+	at com.demo.service.ProductTypeGroupService.getList(ProductTypeGroupService.java:32)
+	at com.demo.controller.ProductTypeGroupController.getList(ProductTypeGroupController.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'RDER BY weight ASC',expect BY, actual BY BY : SELECT * FROM product_type_groupORDER BY weight ASC
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:240)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:318)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:506)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:525)
+	... 33 more
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'RDER BY weight ASC',expect BY, actual BY BY
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:230)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:325)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:121)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:699)
+	... 42 more
+2016-12-11 15:53:02 [qtp833632254-184] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 15:53:02 [qtp833632254-184] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 15:53:14 [qtp833632254-189] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 15:53:14 [qtp833632254-189] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 15:53:14 [qtp833632254-189] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 15:53:14 [qtp833632254-189] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 15:53:14 [qtp833632254-189] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 15:53:14 [qtp833632254-191] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminProductTypeGroup/getList?_dc=1481442794382
+ com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'RDER BY weight ASC',expect BY, actual BY BY : SELECT * FROM product_type_groupORDER BY weight ASC
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:527)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:546)
+	at com.demo.service.ProductTypeGroupService.getList(ProductTypeGroupService.java:32)
+	at com.demo.controller.ProductTypeGroupController.getList(ProductTypeGroupController.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'RDER BY weight ASC',expect BY, actual BY BY : SELECT * FROM product_type_groupORDER BY weight ASC
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:240)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:318)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:506)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:525)
+	... 33 more
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'RDER BY weight ASC',expect BY, actual BY BY
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:230)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:325)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:121)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:699)
+	... 42 more
+2016-12-11 15:53:14 [qtp833632254-187] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 15:53:14 [qtp833632254-187] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 15:55:45 [qtp833632254-191] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 15:55:45 [qtp833632254-191] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 15:55:45 [qtp833632254-191] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 15:55:45 [qtp833632254-191] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 15:55:45 [qtp833632254-191] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 15:55:45 [qtp833632254-187] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 15:55:45 [qtp833632254-187] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:34:58 [qtp833632254-289] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:34:58 [qtp833632254-289] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:34:58 [qtp833632254-289] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:34:58 [qtp833632254-289] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:34:58 [qtp833632254-289] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:34:58 [qtp833632254-287] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:34:58 [qtp833632254-287] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:35:06 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 17:35:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:35:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:35:12 [qtp1304551337-30] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:35:12 [qtp1304551337-30] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:35:12 [qtp1304551337-32] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:35:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:35:12 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:38:01 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:38:01 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:38:01 [qtp1304551337-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:38:01 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:38:01 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:38:01 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:38:01 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:39:33 [qtp1304551337-34] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:39:33 [qtp1304551337-34] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:39:33 [qtp1304551337-34] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:39:33 [qtp1304551337-34] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:39:33 [qtp1304551337-34] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:39:33 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:39:33 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:41:14 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:47:09 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 17:47:19 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:47:19 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:47:19 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:47:19 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:47:19 [qtp1304551337-32] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:47:19 [qtp1304551337-30] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:47:19 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:47:19 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:50:26 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:50:26 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:50:26 [qtp1304551337-31] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:50:26 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:50:26 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:50:26 [qtp1304551337-33] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:50:26 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:50:26 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:51:21 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:51:21 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:51:21 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:51:55 [qtp1304551337-29] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:51:55 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:52:04 [qtp1304551337-29] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:52:04 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:52:45 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:52:45 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:52:45 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:52:45 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:52:45 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:52:45 [qtp1304551337-33] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:52:45 [qtp1304551337-35] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:52:45 [qtp1304551337-35] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:53:10 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 17:53:12 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:53:12 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:53:12 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:53:13 [qtp1304551337-31] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:53:13 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:53:13 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:53:13 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:53:13 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:53:40 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:53:40 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:53:40 [qtp1304551337-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:53:40 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:53:40 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:53:40 [qtp1304551337-31] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:53:40 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:53:40 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:54:28 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:54:28 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:54:28 [qtp1304551337-32] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:54:28 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:54:28 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:54:28 [qtp1304551337-30] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:54:28 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:54:28 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:55:17 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:55:17 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:55:17 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:55:17 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:55:17 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:55:17 [qtp1304551337-30] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:55:17 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:55:17 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:55:20 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:55:20 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:55:20 [qtp1304551337-31] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:55:20 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:55:20 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:55:20 [qtp1304551337-30] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:55:20 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:55:20 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:55:29 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `product_type_group_name` = ? 
+ 2016-12-11 17:55:29 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[1]
+ 2016-12-11 17:56:08 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:56:08 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:56:08 [qtp1304551337-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:56:08 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:56:08 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:56:08 [qtp1304551337-30] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:56:08 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:56:08 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:56:29 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:56:29 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:56:29 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:56:29 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:56:29 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:56:29 [qtp1304551337-31] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 17:56:29 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 17:56:29 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 17:56:32 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `product_type_group_name` = ? 
+ 2016-12-11 17:56:32 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[游戏币]
+ 2016-12-11 17:56:32 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {"product_type_group_name":"游戏币"}
+ 2016-12-11 17:56:32 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `product_type_group_name` = ?  LIMIT 0 ,50]
+ 2016-12-11 17:56:32 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[游戏币]]
+ 2016-12-11 17:56:37 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ? 
+ 2016-12-11 17:56:37 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端, 游戏币]
+ 2016-12-11 17:56:37 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {"channel_name":"8868客户端","product_type_group_name":"游戏币"}
+ 2016-12-11 17:56:37 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  LIMIT 0 ,50]
+ 2016-12-11 17:56:37 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[8868客户端, 游戏币]]
+ 2016-12-11 17:56:39 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ? 
+ 2016-12-11 17:56:39 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端, 游戏币, 0]
+ 2016-12-11 17:56:39 [qtp1304551337-28] - [INFO] [com.demo.service.CertificationService:51] {"channel_name":"8868客户端","product_type_group_name":"游戏币","status":"0"}
+ 2016-12-11 17:56:39 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ?  LIMIT 0 ,50]
+ 2016-12-11 17:56:39 [qtp1304551337-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[8868客户端, 游戏币, 0]]
+ 2016-12-11 17:56:40 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ? 
+ 2016-12-11 17:56:40 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[8868客户端, 游戏币, 1]
+ 2016-12-11 17:56:42 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 17:56:42 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 17:56:42 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 17:56:42 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 17:56:42 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 17:56:48 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `status` = ? 
+ 2016-12-11 17:56:48 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[1]
+ 2016-12-11 17:56:48 [qtp1304551337-33] - [INFO] [com.demo.service.CertificationService:51] {"status":"1"}
+ 2016-12-11 17:56:48 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `status` = ?  LIMIT 0 ,50]
+ 2016-12-11 17:56:48 [qtp1304551337-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[1]]
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 18:58:47 [qtp1304551337-97] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 18:58:47 [qtp1304551337-96] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 18:58:57 [qtp1304551337-99] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 18:58:57 [qtp1304551337-99] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 18:58:57 [qtp1304551337-99] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 18:58:57 [qtp1304551337-99] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 18:58:57 [qtp1304551337-99] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 18:59:04 [qtp1304551337-97] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `product_type_group_name` = ? 
+ 2016-12-11 18:59:04 [qtp1304551337-97] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[游戏币]
+ 2016-12-11 18:59:04 [qtp1304551337-97] - [INFO] [com.demo.service.CertificationService:51] {"product_type_group_name":"游戏币"}
+ 2016-12-11 18:59:04 [qtp1304551337-97] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  WHERE `product_type_group_name` = ?  LIMIT 0 ,50]
+ 2016-12-11 18:59:04 [qtp1304551337-97] - [INFO] [com.demo.utils.DBJfinal:127] params:[[游戏币]]
+ 2016-12-11 18:59:06 [qtp1304551337-98] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 18:59:06 [qtp1304551337-98] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 18:59:06 [qtp1304551337-98] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 18:59:06 [qtp1304551337-98] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 18:59:06 [qtp1304551337-98] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 18:59:18 [qtp1304551337-101] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 18:59:18 [qtp1304551337-101] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:01:03 [qtp1304551337-100] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:01:03 [qtp1304551337-100] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:01:03 [qtp1304551337-100] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:01:03 [qtp1304551337-100] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:01:03 [qtp1304551337-100] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:01:03 [qtp1304551337-98] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 19:01:03 [qtp1304551337-101] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:01:03 [qtp1304551337-101] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:03:59 [qtp1304551337-102] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:03:59 [qtp1304551337-101] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:04:06 [qtp1304551337-102] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:04:06 [qtp1304551337-102] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:04:19 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 19:04:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:04:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:04:24 [qtp833632254-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:04:24 [qtp833632254-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:04:24 [qtp833632254-29] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 19:04:24 [qtp833632254-30] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:04:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:04:24 [qtp833632254-30] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:04:31 [qtp833632254-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:04:31 [qtp833632254-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:06:20 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 19:06:23 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:06:23 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:06:23 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:06:23 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:06:23 [qtp1304551337-32] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 19:06:23 [qtp1304551337-30] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:06:23 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:06:23 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:06:24 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:06:24 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:06:37 [qtp1304551337-28] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/add
+ com.jfinal.plugin.activerecord.ActiveRecordException: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'HERE name = 游戏',expect EQ, actual EQ name : SELECT * FROM product_type_groupWHERE name = 游戏
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:527)
+	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:565)
+	at com.demo.model.ProductTypeGroup.findByName(ProductTypeGroup.java:33)
+	at com.demo.service.ProductTypeGroupService.findByName(ProductTypeGroupService.java:49)
+	at com.demo.controller.CertificationController.add(CertificationController.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.sql.SQLException: sql injection violation, syntax error: syntax error, error in :'HERE name = 游戏',expect EQ, actual EQ name : SELECT * FROM product_type_groupWHERE name = 游戏
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:711)
+	at com.alibaba.druid.wall.WallFilter.connection_prepareStatement(WallFilter.java:240)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.filter.FilterAdapter.connection_prepareStatement(FilterAdapter.java:928)
+	at com.alibaba.druid.filter.FilterEventAdapter.connection_prepareStatement(FilterEventAdapter.java:122)
+	at com.alibaba.druid.filter.FilterChainImpl.connection_prepareStatement(FilterChainImpl.java:448)
+	at com.alibaba.druid.proxy.jdbc.ConnectionProxyImpl.prepareStatement(ConnectionProxyImpl.java:342)
+	at com.alibaba.druid.pool.DruidPooledConnection.prepareStatement(DruidPooledConnection.java:318)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:506)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:525)
+	... 34 more
+Caused by: com.alibaba.druid.sql.parser.ParserException: syntax error, error in :'HERE name = 游戏',expect EQ, actual EQ name
+	at com.alibaba.druid.sql.parser.SQLParser.printError(SQLParser.java:230)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:325)
+	at com.alibaba.druid.sql.parser.SQLStatementParser.parseStatementList(SQLStatementParser.java:121)
+	at com.alibaba.druid.wall.WallProvider.checkInternal(WallProvider.java:620)
+	at com.alibaba.druid.wall.WallProvider.check(WallProvider.java:574)
+	at com.alibaba.druid.wall.WallFilter.check(WallFilter.java:699)
+	... 43 more
+2016-12-11 19:07:36 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:07:36 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:07:36 [qtp1304551337-30] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:07:36 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:07:36 [qtp1304551337-30] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:07:36 [qtp1304551337-28] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 19:07:36 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:07:36 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:07:37 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:07:37 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:07:45 [qtp1304551337-33] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/add
+ com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '装备' in 'where clause'
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:527)
+	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:565)
+	at com.demo.model.ProductTypeGroup.findByName(ProductTypeGroup.java:33)
+	at com.demo.service.ProductTypeGroupService.findByName(ProductTypeGroupService.java:49)
+	at com.demo.controller.CertificationController.add(CertificationController.java:93)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '装备' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.Util.getInstance(Util.java:360)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2530)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1907)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2030)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2714)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeQuery(WallFilter.java:609)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:132)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:508)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:525)
+	... 34 more
+2016-12-11 19:08:50 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 19:08:53 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:08:53 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:08:53 [qtp60258782-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:08:53 [qtp60258782-32] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 19:08:53 [qtp60258782-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:08:53 [qtp60258782-31] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:08:53 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:08:53 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:08:54 [qtp60258782-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:08:54 [qtp60258782-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:09:06 [qtp60258782-30] - [INFO] [com.demo.controller.CertificationController:106] 参数为：{"channel_name":"8868客户端","product_type_group_name":"装备","update_time":"2016-12-11 19:09:06","remark":"啊啊","status":1,"create_time":"2016-12-11 19:09:06","product_type_group_id":2,"channel_id":"20"}
+ 2016-12-11 19:09:06 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 19:09:06 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 19:09:06 [qtp60258782-31] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 19:09:06 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 19:09:06 [qtp60258782-31] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 19:10:48 [qtp60258782-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:10:48 [qtp60258782-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:12:18 [qtp60258782-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:12:18 [qtp60258782-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 19:12:25 [qtp60258782-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 19:12:25 [qtp60258782-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:24:12 [qtp60258782-105] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 20:24:12 [qtp60258782-105] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 20:24:12 [qtp60258782-105] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 20:24:12 [qtp60258782-105] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 20:24:12 [qtp60258782-105] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 20:24:12 [qtp60258782-104] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 20:24:12 [qtp60258782-103] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:24:12 [qtp60258782-103] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:24:14 [qtp60258782-104] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:24:14 [qtp60258782-104] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:24:42 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 20:24:46 [qtp833632254-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 20:24:46 [qtp833632254-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 20:24:46 [qtp833632254-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:24:46 [qtp833632254-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:24:46 [qtp833632254-30] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 20:24:46 [qtp833632254-29] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 20:24:46 [qtp833632254-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 20:24:46 [qtp833632254-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 20:24:59 [qtp833632254-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:24:59 [qtp833632254-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:25:17 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 20:25:22 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 20:25:22 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 20:25:22 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:25:22 [qtp1304551337-29] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 20:25:22 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:25:22 [qtp1304551337-31] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 20:25:22 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 20:25:22 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 20:25:23 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:25:23 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:25:47 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 20:25:47 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 20:25:47 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 20:25:47 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 20:25:47 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 20:25:47 [qtp1304551337-28] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 20:25:47 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:25:47 [qtp1304551337-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 20:25:48 [qtp1304551337-29] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 20:25:48 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 20:25:48 [qtp1304551337-28] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:03:35 [qtp1304551337-125] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/add
+ java.lang.NullPointerException
+	at com.demo.controller.CertificationController.add(CertificationController.java:94)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+2016-12-11 22:07:16 [qtp1304551337-134] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:07:16 [qtp1304551337-134] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:07:16 [qtp1304551337-134] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:07:16 [qtp1304551337-134] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 22:07:16 [qtp1304551337-134] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 22:07:16 [qtp1304551337-137] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:07:16 [qtp1304551337-136] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:07:16 [qtp1304551337-136] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:07:17 [qtp1304551337-133] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:07:17 [qtp1304551337-137] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:07:17 [qtp1304551337-137] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:08:08 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 22:08:54 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:08:54 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:08:54 [qtp673979950-30] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:08:54 [qtp673979950-31] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:08:54 [qtp673979950-30] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:08:54 [qtp673979950-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:08:54 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 22:08:54 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 22:08:55 [qtp673979950-33] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:08:55 [qtp673979950-32] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:08:55 [qtp673979950-32] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:09:10 [qtp673979950-31] - [INFO] [com.demo.controller.CertificationController:106] 参数为：{"channel_name":"8868客户端","product_type_group_name":"游戏币","update_time":"2016-12-11 22:09:10","remark":"啊啊","status":0,"create_time":"2016-12-11 22:09:10","product_type_group_id":1,"channel_id":"20"}
+ 2016-12-11 22:09:10 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:09:10 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:09:10 [qtp673979950-33] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:09:10 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 22:09:10 [qtp673979950-33] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 22:12:08 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:12:08 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:12:08 [qtp673979950-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:12:08 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 22:12:08 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 22:12:08 [qtp673979950-32] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:12:08 [qtp673979950-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:12:08 [qtp673979950-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:15:05 [qtp673979950-35] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:15:05 [qtp673979950-35] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:15:05 [qtp673979950-35] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/getList
+ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:85)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	... 25 more
+Caused by: java.lang.NoSuchMethodError: com.demo.service.CertificationService.getList(Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;II)Ljava/util/List;
+	at com.demo.controller.CertificationController.getList(CertificationController.java:71)
+	... 30 more
+2016-12-11 22:15:05 [qtp673979950-34] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:15:05 [qtp673979950-35] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:15:05 [qtp673979950-35] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:16:11 [qtp673979950-36] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:16:11 [qtp673979950-36] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:16:11 [qtp673979950-36] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/getList
+ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:85)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	... 25 more
+Caused by: java.lang.NoSuchMethodError: com.demo.service.CertificationService.getList(Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;II)Ljava/util/List;
+	at com.demo.controller.CertificationController.getList(CertificationController.java:71)
+	... 30 more
+2016-12-11 22:16:11 [qtp673979950-38] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:16:11 [qtp673979950-34] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:16:11 [qtp673979950-34] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:16:19 [qtp673979950-34] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:16:19 [qtp673979950-34] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:16:19 [qtp673979950-34] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/getList
+ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:85)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	... 25 more
+Caused by: java.lang.NoSuchMethodError: com.demo.service.CertificationService.getList(Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;II)Ljava/util/List;
+	at com.demo.controller.CertificationController.getList(CertificationController.java:71)
+	... 30 more
+2016-12-11 22:16:19 [qtp673979950-38] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:16:19 [qtp673979950-36] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:16:19 [qtp673979950-36] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:18:22 [qtp673979950-39] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:18:22 [qtp673979950-39] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:18:22 [qtp673979950-39] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/getList
+ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:85)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	... 25 more
+Caused by: java.lang.NoSuchMethodError: com.demo.service.CertificationService.getList(Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;Lcom/jfinal/plugin/activerecord/Record;II)Ljava/util/List;
+	at com.demo.controller.CertificationController.getList(CertificationController.java:71)
+	... 30 more
+2016-12-11 22:18:22 [qtp673979950-36] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:18:22 [qtp673979950-40] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:18:22 [qtp673979950-40] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:18:30 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 22:18:43 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:18:43 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:18:43 [qtp1933768736-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:18:43 [qtp1933768736-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:18:43 [qtp1933768736-33] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:18:43 [qtp1933768736-32] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:18:43 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:126] sql:[SELECT * FROM `certification`  LIMIT 0 ,50]
+ 2016-12-11 22:18:43 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:127] params:[[]]
+ 2016-12-11 22:19:04 [qtp1933768736-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:19:04 [qtp1933768736-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:19:04 [qtp1933768736-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:19:04 [qtp1933768736-28] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:19:04 [qtp1933768736-28] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:19:04 [qtp1933768736-33] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:19:04 [qtp1933768736-30] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:19:04 [qtp1933768736-30] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:19:23 [qtp1933768736-29] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:19:23 [qtp1933768736-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:19:23 [qtp1933768736-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:20:27 [qtp1933768736-29] - [INFO] [com.demo.controller.CertificationController:146] The certification data being deleted is: [{"channel_name":"8868客户端","product_type_group_name":"游戏币","id":27,"update_time":"2016-12-11 22:09:10","remark":"啊啊","status":0,"create_time":"2016-12-11 22:09:10","product_type_group_id":1,"channel_id":"20"}]
+ 2016-12-11 22:20:27 [qtp1933768736-29] - [INFO] [com.demo.service.CertificationService:88] 批量删除实名认证配置SQL为：DELETE FROM certification WHERE id in (27)
+ 2016-12-11 22:20:27 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:20:27 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:20:27 [qtp1933768736-32] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:20:27 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:20:27 [qtp1933768736-32] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:24:58 [qtp1933768736-34] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:24:58 [qtp1933768736-34] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:24:58 [qtp1933768736-34] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:24:58 [qtp1933768736-34] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:24:58 [qtp1933768736-34] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:24:58 [qtp1933768736-36] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:24:58 [qtp1933768736-35] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:24:58 [qtp1933768736-35] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:25:00 [qtp1933768736-34] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:25:06 [qtp1933768736-34] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:25:06 [qtp1933768736-34] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:25:15 [qtp1933768736-34] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/update
+ java.lang.NullPointerException
+	at com.demo.controller.CertificationController.update(CertificationController.java:172)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+2016-12-11 22:28:04 [qtp1933768736-38] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:28:04 [qtp1933768736-38] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:28:04 [qtp1933768736-38] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:28:04 [qtp1933768736-38] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:28:04 [qtp1933768736-38] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:28:04 [qtp1933768736-40] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:28:04 [qtp1933768736-39] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:28:04 [qtp1933768736-39] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:28:06 [qtp1933768736-37] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:28:06 [qtp1933768736-37] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:28:06 [qtp1933768736-37] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:28:18 [qtp1933768736-40] - [INFO] [com.demo.model.Channel:48] 根据渠道名称查询的sql:SELECT * FROM channel WHERE channel_name = 百度客户端
+ 2016-12-11 22:28:18 [qtp1933768736-40] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminCertification/update
+ com.jfinal.plugin.activerecord.ActiveRecordException: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '百度客户端' in 'where clause'
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:527)
+	at com.jfinal.plugin.activerecord.Model.findFirst(Model.java:565)
+	at com.demo.model.Channel.findByName(Channel.java:49)
+	at com.demo.service.ChannelService.findByName(ChannelService.java:74)
+	at com.demo.controller.CertificationController.update(CertificationController.java:174)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:982)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1043)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:865)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column '百度客户端' in 'where clause'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:377)
+	at com.mysql.jdbc.Util.getInstance(Util.java:360)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3887)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3823)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2435)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2582)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2530)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1907)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2030)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2714)
+	at com.alibaba.druid.wall.WallFilter.preparedStatement_executeQuery(WallFilter.java:609)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711)
+	at com.alibaba.druid.filter.FilterEventAdapter.preparedStatement_executeQuery(FilterEventAdapter.java:465)
+	at com.alibaba.druid.filter.FilterChainImpl.preparedStatement_executeQuery(FilterChainImpl.java:2711)
+	at com.alibaba.druid.proxy.jdbc.PreparedStatementProxyImpl.executeQuery(PreparedStatementProxyImpl.java:132)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.executeQuery(DruidPooledPreparedStatement.java:227)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:508)
+	at com.jfinal.plugin.activerecord.Model.find(Model.java:525)
+	... 34 more
+2016-12-11 22:29:39 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:29:39 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:29:39 [qtp1933768736-37] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:29:39 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:29:39 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:29:39 [qtp1933768736-41] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:29:39 [qtp1933768736-38] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:29:39 [qtp1933768736-38] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:29:41 [qtp1933768736-37] - [INFO] [com.demo.service.ProductTypeGroupService:39] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:29:41 [qtp1933768736-38] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:29:41 [qtp1933768736-38] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:29:54 [qtp1933768736-42] - [INFO] [com.demo.model.Channel:48] 根据渠道名称查询的sql:SELECT * FROM channel WHERE channel_name = '百度客户端'
+ 2016-12-11 22:29:54 [qtp1933768736-42] - [INFO] [com.demo.controller.CertificationController:179] 修改的原记录为: {"channel_name":"8868客户端","product_type_group_name":"装备","id":26,"update_time":"2016-12-11 19:09:06","remark":"啊啊","status":1,"create_time":"2016-12-11 19:09:06","product_type_group_id":2,"channel_id":"20"}
+ 2016-12-11 22:29:54 [qtp1933768736-42] - [INFO] [com.demo.controller.CertificationController:193] 参数为：{"channel_name":"百度客户端","product_type_group_name":"游戏币","update_time":"2016-12-11 22:29:54","remark":"应用","status":0,"product_type_group_id":1,"channel_id":"25"}  条件为：{"id":26}
+ 2016-12-11 22:29:54 [qtp1933768736-42] - [INFO] [com.demo.utils.DBJfinal:215] ------------>> sql:update `certification` set `channel_name` = ? , `product_type_group_name` = ? , `update_time` = ? , `remark` = ? , `status` = ? , `product_type_group_id` = ? , `channel_id` = ?  WHERE `id` = ? 
+ 2016-12-11 22:29:54 [qtp1933768736-42] - [INFO] [com.demo.utils.DBJfinal:216] ------------>> paras:[百度客户端, 游戏币, 2016-12-11 22:29:54, 应用, 0, 1, 25, 26]
+ 2016-12-11 22:29:54 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:29:54 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:29:54 [qtp1933768736-37] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:29:54 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:29:54 [qtp1933768736-37] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:40:24 [qtp1933768736-51] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:40:24 [qtp1933768736-51] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:40:24 [qtp1933768736-51] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:40:24 [qtp1933768736-51] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:40:24 [qtp1933768736-51] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:40:24 [qtp1933768736-49] - [ERROR] [com.jfinal.core.ActionHandler:124] /adminProductTypeGroup/getList?_dc=1481467224415
+ java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:85)
+	at com.jfinal.core.ActionHandler.handle(ActionHandler.java:74)
+	at com.jfinal.core.JFinalFilter.doFilter(JFinalFilter.java:72)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1476)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:499)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:428)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:667)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:52)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.jfinal.aop.Invocation.invoke(Invocation.java:71)
+	... 25 more
+Caused by: java.lang.NoSuchMethodError: com.demo.model.ProductTypeGroup.getList()Ljava/util/List;
+	at com.demo.service.ProductTypeGroupService.getList(ProductTypeGroupService.java:36)
+	at com.demo.controller.ProductTypeGroupController.getList(ProductTypeGroupController.java:33)
+	... 30 more
+2016-12-11 22:40:24 [qtp1933768736-50] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:40:24 [qtp1933768736-50] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:40:39 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 22:40:42 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:40:42 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:40:42 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:40:42 [qtp1304551337-31] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:40:42 [qtp1304551337-30] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:40:42 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:40:42 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:40:42 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:40:50 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `product_type_group_name` = ? 
+ 2016-12-11 22:40:50 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[游戏币]
+ 2016-12-11 22:40:50 [qtp1304551337-29] - [INFO] [com.demo.service.CertificationService:51] {"product_type_group_name":"游戏币"}
+ 2016-12-11 22:40:50 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  WHERE `product_type_group_name` = ?  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:40:50 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[游戏币]
+ 2016-12-11 22:40:53 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `product_type_group_name` = ?  AND `status` = ? 
+ 2016-12-11 22:40:53 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[游戏币, 1]
+ 2016-12-11 22:40:53 [qtp1304551337-31] - [INFO] [com.demo.service.CertificationService:51] {"product_type_group_name":"游戏币","status":"1"}
+ 2016-12-11 22:40:53 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  WHERE `product_type_group_name` = ?  AND `status` = ?  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:40:53 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[游戏币, 1]
+ 2016-12-11 22:41:00 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ? 
+ 2016-12-11 22:41:00 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[小米客户端, 游戏币, 1]
+ 2016-12-11 22:41:00 [qtp1304551337-32] - [INFO] [com.demo.service.CertificationService:51] {"channel_name":"小米客户端","product_type_group_name":"游戏币","status":"1"}
+ 2016-12-11 22:41:00 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ?  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:41:00 [qtp1304551337-32] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[小米客户端, 游戏币, 1]
+ 2016-12-11 22:41:04 [qtp1304551337-29] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:41:04 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:41:04 [qtp1304551337-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:44:24 [qtp1304551337-33] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:44:24 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:44:24 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:44:35 [qtp1304551337-29] - [INFO] [com.demo.model.Channel:48] 根据渠道名称查询的sql:SELECT * FROM channel WHERE channel_name = '小米客户端'
+ 2016-12-11 22:44:35 [qtp1304551337-29] - [INFO] [com.demo.controller.CertificationController:179] 修改的原记录为: {"channel_name":"小米客户端","product_type_group_name":"游戏币","id":10,"update_time":"2016-11-25 10:20:03","remark":"123132","status":1,"create_time":"2016-11-25 10:20:03","product_type_group_id":1,"channel_id":"11"}
+ 2016-12-11 22:44:35 [qtp1304551337-29] - [INFO] [com.demo.controller.CertificationController:193] 参数为：{"channel_name":"小米客户端","product_type_group_name":"游戏币","update_time":"2016-12-11 22:44:35","remark":"123132","status":1,"product_type_group_id":1,"channel_id":"11"}  条件为：{"id":10}
+ 2016-12-11 22:44:35 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:215] ------------>> sql:update `certification` set `channel_name` = ? , `product_type_group_name` = ? , `update_time` = ? , `remark` = ? , `status` = ? , `product_type_group_id` = ? , `channel_id` = ?  WHERE `id` = ? 
+ 2016-12-11 22:44:35 [qtp1304551337-29] - [INFO] [com.demo.utils.DBJfinal:216] ------------>> paras:[小米客户端, 游戏币, 2016-12-11 22:44:35, 123132, 1, 1, 11, 10]
+ 2016-12-11 22:44:35 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ? 
+ 2016-12-11 22:44:35 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[小米客户端, 游戏币, 1]
+ 2016-12-11 22:44:35 [qtp1304551337-31] - [INFO] [com.demo.service.CertificationService:51] {"channel_name":"小米客户端","product_type_group_name":"游戏币","status":"1"}
+ 2016-12-11 22:44:35 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  WHERE `channel_name` = ?  AND `product_type_group_name` = ?  AND `status` = ?  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:44:35 [qtp1304551337-31] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[小米客户端, 游戏币, 1]
+ 2016-12-11 22:53:34 [main] - [INFO] [com.alibaba.druid.pool.DruidDataSource:669] {dataSource-1} inited
+ 2016-12-11 22:53:38 [qtp673979950-30] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:53:38 [qtp673979950-30] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:53:38 [qtp673979950-29] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:53:38 [qtp673979950-32] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:53:38 [qtp673979950-29] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 22:53:38 [qtp673979950-30] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:53:38 [qtp673979950-30] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:53:38 [qtp673979950-30] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:53:44 [qtp673979950-29] - [INFO] [com.demo.controller.CertificationController:146] The certification data being deleted is: [{"channel_name":"360客户端","product_type_group_name":"游戏币","id":25,"update_time":"2016-12-09 11:13:05","remark":"啊啊啊","status":1,"create_time":"2016-12-09 10:40:42","product_type_group_id":1,"channel_id":"1"},{"channel_name":"百度客户端","product_type_group_name":"游戏币","id":26,"update_time":"2016-12-11 22:29:54","remark":"应用","status":0,"create_time":"2016-12-11 19:09:06","product_type_group_id":1,"channel_id":"25"}]
+ 2016-12-11 22:53:44 [qtp673979950-29] - [INFO] [com.demo.model.Certification:40] 批量删除实名认证配置SQL为：DELETE FROM certification WHERE id IN (26,25)
+ 2016-12-11 22:53:44 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:186] ------------>> sql:SELECT COUNT(1) FROM `certification` 
+ 2016-12-11 22:53:44 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:187] ------------>> paras:[]
+ 2016-12-11 22:53:44 [qtp673979950-28] - [INFO] [com.demo.service.CertificationService:51] {}
+ 2016-12-11 22:53:44 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:147] ------------>> sql:SELECT * FROM `certification`  ORDER BY `id` desc LIMIT 0 ,50
+ 2016-12-11 22:53:44 [qtp673979950-28] - [INFO] [com.demo.utils.DBJfinal:148] ------------>> paras:[]
+ 2016-12-11 22:54:27 [qtp673979950-28] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 22:54:27 [qtp673979950-33] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 22:54:27 [qtp673979950-33] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 2016-12-11 23:06:34 [qtp673979950-42] - [INFO] [com.demo.model.ProductTypeGroup:36] 查询商品一级分类的sql:SELECT * FROM product_type_group ORDER BY weight ASC
+ 2016-12-11 23:06:34 [qtp673979950-43] - [INFO] [com.demo.model.Channel:27] 统计渠道对象数量sql： SELECT COUNT(*) FROM channel
+ 2016-12-11 23:06:34 [qtp673979950-43] - [INFO] [com.demo.model.Channel:37] 查询渠道列表sql： SELECT * FROM channel ORDER BY weight ASC
+ 
