@@ -13,6 +13,7 @@ import cn.dreampie.routebind.ControllerKey;
 
 import com.demo.service.StudentService;
 import com.demo.utils.DateUtil;
+import com.demo.utils.ResponseUtils;
 import com.jfinal.core.Controller;
 import com.jfinal.plugin.activerecord.Record;
 
@@ -49,28 +50,17 @@ public class StudentController extends Controller{
 		String sname = getPara("sname");
 		String college_no = getPara("college_no");
 		Record wh = new Record();
-		if(StringUtils.isNotBlank(sno)){
-			wh.set("s_no", sno);
-		}
-		if(StringUtils.isNotBlank(sname)){
-			wh.set("s_name", sname);
-		}
-		if(StringUtils.isNotBlank(college_no)){
-			wh.set("college_no", college_no);
-		}
-		long totalCount = studentService.getTotalCount(wh); 
+		wh.set("s_no", sno);
+		wh.set("s_name", sname);
+		wh.set("college_no", college_no);
 		JSONArray dataArr = new JSONArray();
-		if(totalCount > 0) {
-			List<Record> list = studentService.getList(wh,null,start,limit);
-			if (list != null && list.size() > 0) {
-				for (Record record : list) {
-					dataArr.add(record.toJson());
-				}
+		List<Record> list = studentService.getList(wh,null,start,limit);
+		if (list != null && list.size() > 0) {
+			for (Record record : list) {
+				dataArr.add(record.toJson());
 			}
 		}
-		setAttr("total_count", totalCount);
-		setAttr("data", dataArr);
-		renderJson();
+		renderJson(ResponseUtils.buildResp(dataArr.size(), dataArr));
 	}
 	
 	/**
@@ -99,19 +89,13 @@ public class StudentController extends Controller{
 		record.set("college_name", college_name);
 		record.set("birth_place", birth_place);
 		record.set("phone_num", phone_num);
-		try{
-			logger.info("参数为："+record.toJson());
-			studentService.save(record);
-		}catch(Exception e){
-			e.printStackTrace();
-			setAttr("success", false);
-			setAttr("msg", "保存失败!");
-			renderJson();
+		logger.info("The data being save is："+record.toJson());
+		
+		if(studentService.save(record)){
+			renderJson(ResponseUtils.buildResp(true, "保存成功！"));
 			return;
 		}
-		setAttr("success", true);
-		setAttr("msg", "保存成功!");
-		renderJson();
+		renderJson(ResponseUtils.buildResp(false, "保存失败！"));
 	}
 	
 	
@@ -144,24 +128,13 @@ public class StudentController extends Controller{
 		
 		Record wh = new Record();
 		wh.set("id", id);
-		try{
-			logger.info("参数为："+data.toJson()+"  条件为："+wh.toJson());
-			if(!studentService.update(data, wh)) {
-				setAttr("success", false);
-				setAttr("msg", "修改失败，数据库异常!");
-				renderJson();
-				return;
-			}
-		}catch(Exception e) {
-			e.printStackTrace();
-			setAttr("success", false);
-			setAttr("msg", "修改失败，后台异常!");
-			renderJson();
+		
+		logger.info("The param is ：" + data.toJson() + "  The condiction is：" + wh.toJson());
+		if(studentService.update(data, wh)){
+			renderJson(ResponseUtils.buildResp(true, "修改成功！"));
 			return;
 		}
-		setAttr("success", true);
-		setAttr("msg", "修改成功!");
-		renderJson();
+		render(ResponseUtils.buildResp(false, "修改失败！"));
 	}
 	
 	/**
@@ -171,34 +144,24 @@ public class StudentController extends Controller{
 	public void delete() {
 		String ids = getPara("ids");
 		if(StringUtils.isBlank(ids)) {
-			setAttr("success", false);
-            setAttr("msg","删除失败，传入参数为空!");
-            renderJson();
+            renderJson(ResponseUtils.buildResp(false, "删除失败，传入参数为空！"));
             return;
 		}
 		//打印删除的数据
 		List<Record> list = studentService.query(ids);
-		if(null == list || list.size() <= 0) {
-			setAttr("success", false);
-			setAttr("msg","删除失败，通过主键获取即将删除的数据为空!");
-			renderJson();
-			return;
+		if(list != null && list.size() > 0){
+			JSONArray arr = new JSONArray();
+			for(Record rec: list){
+				arr.add(rec.toJson());
+			}
+			logger.info("The data being delete is: " + arr);
 		}
-		JSONArray arr = new JSONArray();
-		for (Record rec : list) {
-			arr.add(rec.toJson());
-		}
-		logger.info("正在删除的信息为: " + arr);
+		
 		if(studentService.delete(ids)) {
-			setAttr("success", true);
-			setAttr("msg","删除成功!");
-			renderJson();
+			renderJson(ResponseUtils.buildResp(true, "删除成功！"));
 			return;
 		}
-		setAttr("success", false);
-		setAttr("msg","删除失败!");
-		renderJson();
-		return;
+		renderJson(ResponseUtils.buildResp(false, "删除失败！"));
 	}
 
 }

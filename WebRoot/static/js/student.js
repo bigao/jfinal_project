@@ -27,7 +27,7 @@ define(function(require, exports, module) {
             baseParams: {start:0, limit: 50},
             root: 'data',
             idProperty: 'id',
-            totalProperty: 'total_count',
+            totalProperty: 'total',
             fields:[ 
                 {name: 'id'},
                 {name: 's_no'},
