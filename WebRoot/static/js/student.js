@@ -429,7 +429,7 @@ define(function(require, exports, module) {
         
     });
     
-     //渠道名称下拉框数据源
+     //学院下拉框数据源
     var createCollegeStore = new Ext.data.JsonStore({
         url:COLLEGE_URL.LIST,
         fields: ['college_no','college_name'],
